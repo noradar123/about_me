@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Wesley 的個人網站 — 資訊工程、數學，以及持續探索的學習旅程。">
+<meta name="theme-color" content="#254b3e">
+<title>Wesley — 個人網站</title>
+<style>
+:root{--paper:#f6f5ef;--ink:#243e33;--muted:#647068;--line:#d6dcd1;--accent:#d8edab}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,"Segoe UI","Noto Sans TC",sans-serif;line-height:1.8}a{color:inherit;text-decoration:none}a:focus-visible{outline:3px solid #678442;outline-offset:6px}.wrap{width:min(1120px,calc(100% - 64px));margin:auto}header{display:flex;align-items:center;justify-content:space-between;padding:28px 0;border-bottom:1px solid var(--line)}.brand{font-size:21px;font-weight:750;letter-spacing:-1px}.dot{color:#8b9d5d}nav{display:flex;gap:28px;font-size:14px}nav a:hover{color:#738447}.hero{min-height:620px;display:grid;grid-template-columns:1.4fr 1fr;align-items:center;gap:60px;padding:80px 0}.eyebrow{font-size:12px;letter-spacing:2px;font-weight:650;text-transform:uppercase}.hello{display:flex;align-items:center;gap:10px}.hello:before{content:"";width:7px;height:7px;border-radius:50%;background:#6c8855}h1{font-size:clamp(62px,7.5vw,104px);line-height:1.08;font-weight:500;letter-spacing:-6px;margin:25px 0}h1 span{font-family:Georgia,serif;font-style:italic} .intro{font-size:19px;max-width:480px;color:var(--muted);margin:28px 0 34px}.button{display:inline-flex;align-items:center;gap:35px;background:var(--ink);color:var(--paper);padding:13px 23px;border-radius:4px;font-size:14px}.button:hover{background:#416247}.art{position:relative;aspect-ratio:1;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 48% 45%,#e4eccc,transparent 65%)}.art:before,.art:after{content:"";position:absolute;border:1px solid #aab89d;border-radius:50%;width:75%;height:75%;transform:rotate(-35deg) scaleX(.45)}.art:after{transform:rotate(35deg) scaleX(.45)}.symbol{font-family:Georgia,serif;font-size:100px;font-style:italic;font-weight:normal;z-index:1}.art-label{position:absolute;bottom:24px;font-size:10px;letter-spacing:3px}.orbit-dot{position:absolute;top:19%;right:17%;height:15px;width:15px;background:var(--ink);border:5px solid var(--paper);box-sizing:content-box;border-radius:50%}section{scroll-margin-top:30px}.about{border-top:1px solid var(--line);padding:58px 0 70px;display:grid;grid-template-columns:1fr 2fr;gap:70px}h2{font-size:28px;font-weight:500;margin:8px 0 0;letter-spacing:-1px}.section-number{font-size:11px;color:var(--muted);letter-spacing:2px}.bio{font-size:20px;margin:0 0 30px;max-width:650px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:25px;border-top:1px solid var(--line);padding-top:24px}.fact-label{display:block;color:var(--muted);font-size:12px;margin-bottom:6px}.fact-value{font-size:15px}.contact{padding:38px 42px;background:#e7ebdf;display:flex;align-items:center;justify-content:space-between;gap:30px;border-radius:5px;margin-bottom:65px}.contact p{margin:7px 0 0;color:var(--muted);font-size:14px}.contact a{border-bottom:1px solid var(--ink);white-space:nowrap;font-size:15px;padding:5px 0}footer{display:flex;justify-content:space-between;gap:20px;padding:25px 0 35px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}.skip{position:absolute;top:-80px;background:var(--ink);color:white;padding:12px}.skip:focus{top:0}
+@media(max-width:720px){.wrap{width:calc(100% - 40px)}header{padding:20px 0}nav{gap:18px}.hero{grid-template-columns:1fr;gap:45px;padding:60px 0;min-height:auto}h1{letter-spacing:-4px}.intro{font-size:17px}.art{width:240px;justify-self:center}.symbol{font-size:80px}.art-label{font-size:8px}.about{grid-template-columns:1fr;gap:25px;padding:40px 0}.bio{font-size:18px}.contact{padding:28px;align-items:flex-start;flex-direction:column;margin-bottom:40px}.facts{gap:15px}footer{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要內容</a>
+<div class="wrap">
+<header><a class="brand" href="./" aria-label="Wesley 首頁">wesley<span class="dot">.</span></a><nav aria-label="主要導覽"><a href="#about">關於我</a><a href="https://github.com/noradar123">GitHub ↗</a></nav></header>
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+<div><div class="eyebrow hello">Hello, world</div><h1 id="hero-title">Hi, I'm<br><span>Wesley.</span></h1><p class="intro">在程式與數學之間，探索想法的可能。<br>歡迎來到我的個人網站。</p><a class="button" href="#about">認識我 <span aria-hidden="true">↓</span></a></div>
+<div class="art" aria-hidden="true"><span class="symbol">w.</span><span class="orbit-dot"></span><span class="art-label">CURIOSITY · IDEAS · CODE</span></div>
+</section>
+<section id="about" class="about" aria-labelledby="about-title">
+<div><span class="section-number">01 / ABOUT</span><h2 id="about-title">關於我</h2></div>
+<div><p class="bio">我是 Wesley，目前在國立臺灣大學學習資訊工程與數學。對 AI 與機器學習抱持好奇，也喜歡透過實作，讓抽象的概念變得具體。</p><div class="facts"><div><span class="fact-label">學習背景</span><span class="fact-value">資訊工程 · 數學</span></div><div><span class="fact-label">探索方向</span><span class="fact-value">AI · Machine Learning</span></div></div></div>
+</section>
+<section class="contact" aria-labelledby="contact-title"><div><span class="section-number">02 / ELSEWHERE</span><h2 id="contact-title">從這裡，繼續探索。</h2><p>我的程式與實作，可以在 GitHub 找到。</p></div><a href="https://github.com/noradar123">前往 GitHub <span aria-hidden="true">↗</span></a></section>
+</main>
+<footer><span>© Wesley</span><span>保持好奇，持續學習。</span></footer>
+</div>
+</body>
+</html>
