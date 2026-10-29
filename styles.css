@@ -53,6 +53,10 @@
 
     .topic-link { display: block; border: 1px solid var(--line); padding: 20px; text-decoration: none; }
     .topic-link:hover { border-color: var(--ink); }
+    .topic-link + .topic-link { margin-top: 16px; }
+    .poster-preview { margin: 24px 0 0; }
+    .poster-preview img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+    .poster-preview figcaption { color: var(--muted); font-size: 12px; margin-top: 10px; }
     .topic-title { display: flex; justify-content: space-between; gap: 20px; font-size: 18px; font-weight: 700; }
     .topic-description { display: block; color: var(--muted); margin-top: 8px; font-size: 13px; }
     .back-link { display: inline-block; margin-bottom: 24px; font-size: 13px; }
