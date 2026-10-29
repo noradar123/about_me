@@ -57,6 +57,10 @@
     .poster-preview { margin: 24px 0 0; }
     .poster-preview img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
     .poster-preview figcaption { color: var(--muted); font-size: 12px; margin-top: 10px; }
+    .gameplay { margin: 24px 0 0; }
+    .gameplay video { display: block; width: 100%; height: auto; background: #17201b; border: 1px solid var(--line); }
+    .gameplay figcaption { color: var(--muted); font-size: 12px; margin-top: 10px; }
+    .related-note { margin-top: 24px; }
     .topic-title { display: flex; justify-content: space-between; gap: 20px; font-size: 18px; font-weight: 700; }
     .topic-description { display: block; color: var(--muted); margin-top: 8px; font-size: 13px; }
     .back-link { display: inline-block; margin-bottom: 24px; font-size: 13px; }
